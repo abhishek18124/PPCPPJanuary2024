@@ -10,11 +10,11 @@ int main() {
 	int* q = nullptr;
 	int* r = 0;
 
-	if(p == q and p == r) {
+	if (p == q and p == r) {
 		cout << "they are equal";
 	}
 
 	// you cannot derefernce a null pointers
-	
+
 	return 0;
 }
