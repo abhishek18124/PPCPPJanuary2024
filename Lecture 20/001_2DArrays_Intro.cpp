@@ -15,7 +15,7 @@ using namespace std;
 
 int main() {
 
-	int arr[10][10];
+	int arr[10][10]; // based on the contraints
 
 	int m;
 	cout << "Enter the no. of row : ";
@@ -27,11 +27,35 @@ int main() {
 
 	// read mxn values into the 2D array
 
-	// todo ...
+	for (int i = 0; i < m; i++) {
+
+		// read values in the ith row
+
+		for (int j = 0; j < n; j++) {
+
+			cin >> arr[i][j];
+
+		}
+
+	}
 
 	// print mxn values of the 2D array
 
-	// todo ...
+	for (int i = 0; i < m; i++) {
+
+		// print values in the ith row
+
+		for (int j = 0; j < n; j++) {
+
+			cout << arr[i][j] << " ";
+
+		}
+
+		cout << endl;
+
+	}
+
+	cout << endl;
 
 	return 0;
 }
